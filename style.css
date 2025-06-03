@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p, h1, h3, h2 {
+    text-align: justify;
+}
+
+h1 span, h2 span {
+    color: rgb(8, 182, 8);
+}
+
+a {
+    color: rgb(8, 182, 8);
+}
+
+.voltarTopo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(8, 182, 8);
+  color: white;
+  padding: 10px 18px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 100%;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.voltarTopo:hover {
+  background-color: rgb(58, 121, 52);
+  transform: scale(1.1);
+}
+
+/*cabeçalho*/
+
+.menu {
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(8, 182, 8);
+}
+
+.navegacao {
+    margin: 0 auto;
+}
+
+
+.link {
+    display: flex;
+    list-style: none;
+}
+
+.link li a {
+    text-decoration: none;
+    padding: 40px;
+    color: white;
+    display: inline-block;
+    transition: 0.5s;
+
+}
+
+.link li a:hover {
+    color: rgb(58, 121, 52);
+    transform: scale(1.1);
+
+}
+
+.chamarAmigo {
+    margin: auto 35px;
+}
+
+.chamarAmigo a button {
+    color: rgb(8, 182, 8);
+    background-color: white;
+    width: 80px;
+    height: 40px;
+    border: none    ;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/*página princial, main*/
+
+.principal {
+    height: 100vh;
+}
+
+.logo {
+    padding-left: 20px;
+}
+
+.ods3 {
+    margin: 150px 100px;
+    display: flex;
+}
+
+.textoOds {
+    margin: 0 50px;
+}
+
+.linkOds {
+    margin: 20px 0;
+}
+
+.linkOds p a {
+    text-decoration: none;
+    color: rgb(8, 182, 8);
+}
+
+.textoOds p {
+    font-size: 20px;
+}
+
+.textoOds h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+    
+}
+
+/*sessão sobre nós*/
+
+.sobre {
+    height: 100vh;
+}
+
+.quemSomos {
+    display: flex;
+    margin: 0px 0px 100px 80px;
+    padding-left: 20px;
+}
+
+.textoQuemSomos h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.textoQuemSomos p {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.textoQuemSomos p span {
+    color: rgb(8, 182, 8);
+}
+
+.formulario {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.form {
+    display: block;
+    width: 525px;
+    margin: 0 auto;
+}
+
+.form h1 {
+    margin: 30px 0;
+}
+
+.form label {
+    color: rgb(8, 182, 8);
+    padding-left: 10px;
+}
+
+.form input {
+    width: 520px;
+    height: 40px;
+    margin: 10px 0;
+    border: 3px solid;
+    border-color: rgb(8, 182, 8);
+    border-radius: 20px;
+}
+
+.form input::placeholder {
+    color: rgb(8, 182, 8);
+    padding-left: 15px;
+}
+
+.botao {
+    text-align: center;
+}
+
+.botao button {
+    color: rgb(8, 182, 8);
+    background-color: white;
+    width: 80px;
+    height: 40px;   
+    border: 3px solid;
+    border-color: rgb(8, 182, 8);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+/*parte 1 alimentação saldável*/
+
+.alimentacao {
+    height: 100vh;
+}
+
+.alimentacaoSaudavel {
+    display: grid;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.alimentacaoSaudavel h1 {
+    font-size: 40px;
+}
+
+.alimentacaoSaudavel p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.importancia, .oqAlimentacao, .calorias {
+    margin: 80px 0;
+}
+
+/*parte 2 alimentação saldável*/
+
+.menosCaloias {
+    height: 100vh;
+}
+
+.caloriasGeral {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.caloriasAlimento {
+    text-align: center;
+    width: 400px;
+    margin: 50px auto;
+}
+
+.caloriasAlimento p {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.tabelaTaco {
+    padding-bottom: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.caloriasAlimento img {
+    margin: 25px 0;
+}
+
+.tituloCalorias {
+    padding: 80px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.tabelaTaco h3 {
+    text-align: center;
+}
+
+/*parte 1 atividades físicas*/
+
+.geralAtt {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.principalAtt h1 {
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.principalAtt ol{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.principalAtt ol li{
+    margin: 20px 0;
+}
+
+.casaAtt {
+    margin: 30px auto;
+}
+
+/*parte 2 atividades físicas*/
+
+.exerciciosCasa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.textoExercicios {
+    width: 400px;
+    margin: 50px auto;
+}
+
+.textoExercicios h1, img{
+    margin: 20px 0;
+}
+
+.textoExercicios ul li {
+    margin: 10px 0;
+}
+
+/*parte 1 Saúde mental*/
+
+.saudeGeral {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.saudeTextoPrincipal h1, .saudeLista h1 {
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.saudeLista ul {
+    padding-left: 20px;
+}
+
+.saudeLista ul li {
+    margin: 5px 0;
+}
+
+.transicaoAnsiedade h2 {
+    margin-top: 70px;
+}
+
+.transicaoAnsiedade p {
+    margin-top: 30px;
+}
+
+/*parte 2 Saúde mental*/
+
+.diaAnsiedade {
+    max-width: 800px;
+    margin: 70px auto;
+}
+
+.mainTextAnsiedade h1 {
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.mainTextAnsiedade ul, ol {
+    margin: 20px;
+}
+
+.mainTextAnsiedade ol li {
+    color: rgb(8, 182, 8);
+    font-size: 20px;
+    margin-top: 30px
+}
+
+.mainTextAnsiedade ul li {
+    margin: 10px 0;
+}
+
+/*parte 1 Sono*/
+
+.sonoTotal {
+    max-width: 800px;
+    margin: auto;
+}
+
+.sonoTotal h1, h3 {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.sonoTotal ul {
+    margin: 20px;
+}
+
+.sonoTotal ul li {
+    margin: 10px 0;
+}
+
+.sonoTotal a {
+    padding-bottom: 70px;
+}
+
+/*parte 2 Sono*/
+
+.sono2Geral {
+    max-width: 800px;
+    margin: 70px auto;
+}
+
+.sono2Geral h1 {
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.sono2Geral h2 {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.sono2Geral ul, ol {
+    margin: 20px;
+}
+
+.sono2Geral ol li span {
+    color: rgb(8, 182, 8);
+}
+
+.sono2Geral ol li, ul li {
+    padding: 10px;
+}

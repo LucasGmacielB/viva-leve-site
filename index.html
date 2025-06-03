@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Viva leve</title>
+</head>
+<body id="topo">
+    <header class="cabecalho">
+        <div class="menu">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo-vivaleve-branca.png" alt="logo do site" width="70px"></a>
+            </div>
+
+            <div class="navegacao">
+                <ul class="link">
+                    <li><a href="alimentacaoSaudavel/alimentacao.html">Alimentação saudável</a></li>
+                    <li><a href="atividadeFisica/atividades.html">Atividades físicas</a></li>
+                    <li><a href="saudeMental/saudeMental.html">Saúde mental</a></li>
+                    <li><a href="sonoDormir/sono.html">Sono</a></li>
+                </ul>
+            </div>
+
+            <div class="chamarAmigo">
+                <a href="#formu"><button>Chamar</button></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="principal">
+        <div class="ods3">
+            <div class="odsImg">
+                <a href="https://brasil.un.org/pt-br/sdgs/3" target="_blank"><img src="images/ods3.jpg" alt="imagem ods" width="400px"></a>
+            </div>
+
+            <div class="textoOds">
+                <h1>O que é a <span>ODS 3</span>?</h1>
+                <p>A ODS 3 (Objetivo de Desenvolvimento Sustentável 3), estabelecida pela ONU, busca garantir uma vida saudável e promover o bem-estar para todos, em todas as idades. Seu foco principal é a melhoria da saúde global, com metas como a redução da mortalidade infantil e materna, o combate a epidemias (como AIDS, tuberculose e malária), o acesso universal a serviços de saúde de qualidade e medicamentos essenciais. A ODS 3 também destaca a importância da saúde mental, da prevenção ao uso de substâncias nocivas e da cobertura vacinal. Promover a ODS 3 é essencial para construir sociedades mais justas e resilientes.</p>
+
+                <div class="linkOds">
+                    <p><a href="https://brasil.un.org/pt-br/sdgs/3" target="_blank">Clique aqui</a> ou na imagem ao lado se quiser saber mais sobre a ODS 3.</p>
+                </div>
+            </div>
+        </div>    
+    </main>
+
+    <section class="sobre">
+        <div class="quemSomos">
+            <div class="textoQuemSomos">
+                <h1>Sobre nós<span>.</span></h1>
+                <p>O autocuidado é o conjunto de ações que cada pessoa realiza para cuidar da própria saúde física, emocional e mental. Ele envolve hábitos simples, como manter uma boa alimentação, dormir bem, praticar exercícios e reservar um tempo para relaxar e refletir. Cuidar de si mesmo não é um ato de egoísmo, mas sim de responsabilidade. O bem-estar está diretamente ligado à qualidade de vida e à forma como lidamos com os desafios do dia a dia. Quando praticamos o autocuidado, fortalecemos nossa autoestima, prevenimos doenças e desenvolvemos mais equilíbrio para viver de forma saudável e feliz.</p>
+                <p>Pensando nisso, o site <span>Viva Leve</span> foi criado com o objetivo de ajudar as pessoas a adotarem hábitos mais saudáveis e conscientes. Através de conteúdos informativos e acessíveis, o site oferece orientações sobre alimentação saudável, atividades físicas, saúde mental e sono, reunindo tudo o que é essencial para uma vida com mais leveza, equilíbrio e bem-estar. O Viva Leve existe para apoiar você na construção de uma rotina mais saudável, promovendo o autocuidado de forma prática e acolhedora.</p>
+            </div>
+
+            <div class="imgQuemSomos">
+                <img src="images/logo-vivaleve.png" alt="imagem viva leve" width="500px">
+            </div>
+        </div>
+    </section>
+
+    <section class="formulario" id="formu">
+
+        <div class="form" onsubmit="enviarMensagem(event)">
+            <h1>Deseja <span>mostrar este site</span> para alguém<span>?</span></h1>
+            <form action="">
+                <label for="nome">Digite o nome da pessoa que você deseja enviar este site:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="Ex: Lucas"><br><br>
+                <label for="numero">Digite o número de quem deseja enviar:</label><br>
+                <input type="text" id="numero" name="numero" placeholder="Digite o número sem letras, traços ou pontos"><br><br>
+                <div class="botao">
+                    <button type="submit">ENVIAR</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <a href="#topo" class="voltarTopo">↑</a>
+    <script src="script.js"></script>
+</body>
+</html>
